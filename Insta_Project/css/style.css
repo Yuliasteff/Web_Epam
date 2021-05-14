@@ -1,0 +1,118 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+  width: 600px;
+  height: 500px;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__info-section {
+  padding: 0px 16px;
+}
+
+.card__like-counter {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.card__publish-time {
+  font-weight: lighter;
+  font-size: 8px;
+  color: grey;
+}
+
+.card__description {
+  margin-bottom: 8px;
+}
+
+.profile__photo {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.panel {
+  padding: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.panel__right, .panel__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.action {
+  height: 32px;
+  width: 32px;
+}
+
+.action__flip {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.action:hover {
+  cursor: pointer;
+}
+
+.descripition__author {
+  font-weight: bold;
+}
+
+.card__publish-time {
+  font-weight: lighter;
+  font-style: 12px;
+  margin-bottom: 8px;
+  color: grey;
+}
+
+.input {
+  padding: 0 16px;
+  color: silver;
+}
+
+.post-button {
+  font-weight: bold;
+  color: #3e9bed;
+  border: none;
+  background-color: #fff;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background: #ededed;
+}
