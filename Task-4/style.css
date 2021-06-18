@@ -1,241 +1,238 @@
 body {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-  }
-  
-  .notice-panel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid black;
-    width: 300px;
-    padding: 8px;
-  }
-  
-  .notice_control-panel {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.4rem;
-    width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
-  
-  .volume__bar {
-    width: 300px;
-    height: 30px;
-    border: 1px solid black;
-    border-radius: 20px;
-    display: flex;
-    margin-bottom: 4px;
-  }
-  
-  .block {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    filter: invert(100%);
-    margin-left: 12px;
-    margin-right: 8px;
-    height: 12px;
-    width: 12px;
-  }
-  
-  .icon--right-side {
-    margin-left: 20px;
-    margin-right: 0px;
-    height: 20px;
-    width: 20px;
-  }
-  
-  .icon--without-margins {
-    margin: 0;
-  }
-  
-  .icon--without-left-margin {
-    margin-left: 0px;
-    margin-right: 4px;
-  }
-  
-  .card {
-    display: flex;
-    align-items: center;
-    width: 145px;
-    height: 70px;
-    border-radius: 20px;
-    background-color: #373831;
-    color: white;
-  }
-  
-  .card__photo {
-    display: flex;
-    height: 60px;
-    width: 60px;
-    border-radius: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top: -26px;
-  }
-  
-  .card__title {
-    font-size: 12px;
-    font-weight: 550;
-  }
-  
-  .card__content {
-    font-size: 10px;
-  }
-  
-  .notice-panel__setting-buttons-container {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .notice-panel__setting-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 12px;
-  }
-  
-  .round__button {
-    margin: 8px 2px;
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 94px;
-    height: 30px;
-    border: 1px solid rgb(70, 70, 70);
-    border-radius: 20px;
-    color: white;
-  }
-  
-  .card__header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    height: 50px;
-    margin-right: auto;
-    margin-bottom: 8px;
-  }
-  
-  .card__info {
-    display: flex;
-    flex-direction: column;
-    margin-right: auto;
-  }
-  
-  .card__footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .time__code {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .icon-section {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 8px;
-  }
-  
-  .music__start {
-    margin-right: 218px;
-    margin-bottom: 8px;
-  }
-  
-  .card--big {
-    display: flex;
-    width: 300px;
-    height: 170px;
-    flex-direction: column;
-    background-color: #e4faca;
-    color: black;
-  }
-  
-  .small--bar {
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-    margin-right: 16px;
-    margin-left: auto;
-    height: 20px;
-    width: 110px;
-    padding-top: 4px;
-  }
-  
-  .blue--button {
-    background-color: #7fcbee;
-    border: 0px solid;
-  }
-  
-  .volume__bar--center-text {
-    margin-top: 2px;
-  }
-  
-  .card__title--music-card {
-    margin-bottom: 4px;
-  }
-  
-  .background {
-    background-color: #181e1a;
-  }
-  
-  .card--green {
-    background-color: #a5ef7a;
-    color: black;
-  }
-  
-  .icon--black {
-    filter: invert(0%);
-  }
-  
-  .icon--mirror-rotation {
-    transform: scale(-1, 1);
-  }
-  
-  .icon--rotation {
-    transform: rotate(135deg);
-  }
-  
-  .volume__bar--panel-header {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 100%;
-    height: 25px;
-    background: #a5ef7a;
-    outline: none;
-    border-radius: 10px;
-  }
-  
-  .volume__bar--music {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 260px;
-    height: 0px;
-    border-radius: 5px;
-    background: #000000;
-    outline: none;
-  }
-  
-  .notice-panel__header {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.notice-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: 300px;
+  padding: 8px;
+}
+
+.notice-panel_control-panel {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.4rem;
+  width: 100%;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+.slider__bar {
+  width: 300px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.action__content {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.action__content--with-button {
+  margin-right: 40px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  filter: invert(100%);
+  height: 12px;
+  width: 12px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  width: 122px;
+  height: 70px;
+  border-radius: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #373831;
+  color: white;
+}
+
+.action__photo {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  border-radius: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: -26px;
+}
+
+.action__title {
+  font-size: 12px;
+  font-weight: 550;
+}
+
+.action__subtitles {
+  font-size: 8px;
+}
+
+.notice-panel__setting-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.three__button {
+  margin: 8px 2px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 94px;
+  height: 30px;
+  border: 1px solid rgb(70, 70, 70);
+  border-radius: 20px;
+  color: white;
+}
+
+.action__header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 50px;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.action__info {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.action__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time__code {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation-control {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 60%;
+  margin-bottom: 8px;
+}
+
+.palyer-element__start {
+  margin-right: 218px;
+  margin-bottom: 8px;
+}
+
+.palyer__element {
+  display: flex;
+  width: 300px;
+  height: 170px;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: #f0f5d2;
+  color: black;
+}
+
+.small--bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  margin-right: 12px;
+  margin-left: auto;
+  height: 20px;
+  width: 110px;
+  padding-top: 4px;
+}
+
+.button--big {
+  height: 24px;
+  width: 24px;
+}
+
+.blue--bar {
+  background-color: #b4e4f2;
+  border: 0px solid;
+}
+
+.slider__bar--center-text {
+  margin-top: 2px;
+  margin-left: 4px;
+}
+
+.action__title--palyer-element {
+  margin-bottom: 4px;
+}
+
+.background {
+  background-color: #181e1a;
+}
+
+.action--on {
+  background-color: #b8ef7a;
+  color: black;
+}
+
+.button--black {
+  filter: invert(0%);
+}
+
+.button--mirror-rotation {
+  transform: scale(-1, 1);
+}
+
+.button--rotation {
+  transform: rotate(135deg);
+}
+
+.slider__bar--panel-header {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #b8ef7a;
+  outline: none;
+  border-radius: 10px;
+}
+
+.slider__bar--palyer-element {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 260px;
+  height: 0px;
+  border-radius: 5px;
+  background: #000000;
+  outline: none;
+}
+
+.notice-panel__header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
