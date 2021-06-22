@@ -233,11 +233,16 @@ body {
   transform: rotate(135deg);
 }
 
-.slider-bar {
+input.slider-bar--brightness[type="range"] {
   -webkit-appearance: none;
   width: 100%;
-  appearance: none;
-  outline: none;
+}
+
+input.slider-bar--brightness[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background: url("/icons/iconmonstr-brightness-7-24.png") no-repeat;
 }
 
 .slider-bar--green {
@@ -259,7 +264,3 @@ body {
   width: 100%;
   margin-bottom: 10px;
 }
-
-
-
-

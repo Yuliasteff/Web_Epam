@@ -1,0 +1,266 @@
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.notice-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: 300px;
+  height: auto;
+  padding: 8px;
+  background-color: #181e1a;
+}
+
+.notice-panel__control-panel {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.4rem;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.action__content {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.action__content--with-button {
+  margin-right: auto;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: invert(100%);
+  height: 12px;
+  width: 12px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  width: 124px;
+  height: 70px;
+  border-radius: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #373831;
+  color: white;
+}
+
+.action__title {
+  font-size: 12px;
+  font-weight: 550;
+  margin-bottom: 4px;
+}
+
+.action__subtitles {
+  font-size: 10px;
+}
+
+.notice-panel__setting-dots {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.three-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sick__bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 110px;
+  height: 18px;
+  margin-left: auto;
+  margin-bottom: 4px;
+  border-radius: 20px;
+  
+}
+
+.sick__bar-content {
+  display: flex;
+  font-size: 10px;
+  margin-left: 4px;
+}
+
+.settings-dots {
+  margin: 8px 2px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 94px;
+  height: 30px;
+  border: 1px solid rgb(70, 70, 70);
+  border-radius: 20px;
+  color: white;
+}
+
+.player {
+  display: flex;
+  justify-content: flex-end;
+  width: 268px;
+  height: 130px;
+  border-radius: 20px;
+  flex-direction: column;
+  color: black;
+}
+
+.player--higher-position {
+  margin-top: -20px;
+}
+
+.player__info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.player__photo {
+  display: flex;
+  height: 64px;
+  width: 64px;
+  border-radius: 12px;
+  margin-right: 12px;
+}
+
+.player__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.action__header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 50px;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.player__audio-time-code {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.player__navigation-control {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.sick-bar {
+  display: flex;
+  width: 268px;
+  padding: 16px;
+  height: 100%;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: #eff5d2;
+  color: black;
+}
+
+.button--big {
+  height: 24px;
+  width: 24px;
+}
+
+.button--small {
+  height: 10px;
+  width: 10px;
+}
+
+.button--lower-position {
+  margin-bottom: -12px;
+}
+
+.sick__bar--blue {
+  background-color: #b4f2ed;
+  border: 0px solid;
+}
+
+.player__audio-title {
+  font-size: 12px;
+  font-weight: 550;
+  margin-bottom: 4px;
+}
+
+.player__audio-subtitles {
+  font-size: 10px;
+}
+
+.action--on {
+  background-color: #d6ef7a;
+  color: black;
+}
+
+.button--black {
+  filter: invert(0%);
+}
+
+.button--mirror-rotation {
+  transform: scale(-1, 1);
+}
+
+.button--rotation {
+  transform: rotate(135deg);
+}
+
+.slider-bar {
+  -webkit-appearance: none;
+  width: 100%;
+  appearance: none;
+  outline: none;
+}
+
+.slider-bar--green {
+  height: 32px;
+  background: #d6ef7a;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.slider-bar--black {
+  height: 0px;
+  border: 1px solid #000;
+  background-color: #000;
+}
+
+.notice-panel__header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+
