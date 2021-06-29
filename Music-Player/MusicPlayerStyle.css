@@ -16,7 +16,7 @@ body{
 }
 
 nav{
-	height: 4rem;
+	height: 5rem;
 	width:100%;
 	margin: 0.3rem;
 	display: flex;
@@ -76,6 +76,7 @@ aside{
 	width: 3.3rem;
 	border-radius: 50%;
 	display: inline;
+	margin: 1rem;
 }
 #music-player-name{
 	color: white;
@@ -83,6 +84,8 @@ aside{
 	padding: 5px;
 	margin-top: 7px;
 	display: inline;
+	margin: 1rem;
+	margin-left: -0.5rem;
 }
 
 #search-bar{
@@ -94,6 +97,7 @@ aside{
 }
 
 #search-bar input[type="text"]{
+	margin-top: 0.8rem;
 	height:1.7rem;
 	width:17vw;
 	margin-right: 3px;
@@ -119,12 +123,12 @@ aside{
 #notifications{
 	font-size: 1.3rem;
 	color: var(--font_color_1);
-	margin-top: 18px;
+	margin-top: 28px;
 	margin-right: 2rem;
 
 }
 #user{
-	margin-top: 5px;
+	margin-top: 1rem;
 }
 #user img{
 	height: 3.3rem;
@@ -179,6 +183,7 @@ aside{
 	flex-direction: row;
 	justify-content: space-between;
 	padding-top: 2rem;
+	margin-right: 4rem;
 }
 #latest-item-title{
 	padding-left: 1rem;
@@ -191,7 +196,7 @@ aside{
 	height: 100px;
 	width: 100px;
 	padding: 0px;
-	background-image: url(Images/latest-release-2.png);
+	background-image: url(Images/208121.400x400.jpg);
 	background-position: center;
 	background-size: cover;
 	color: var(--font_color_1);
@@ -270,6 +275,7 @@ aside{
 	border:0px;
 	border-radius: 50%;
     margin-top: 2rem;
+	margin-right: -1rem;
 }
 #popular-artists-image-2{
 	background-image: url(Images/artist-6.jpg);
@@ -299,7 +305,7 @@ aside{
     margin-top: 2rem;
 }
 #popular-artists-image-5{
-	background-image: url(Images/artist-7.jpg);
+	background-image: url(Images/taylor-swift-folklore.jpg);
 	background-size: cover;
 	background-position: center;
 	height:120px;
@@ -317,6 +323,7 @@ aside{
 	border:0px;
 	border-radius: 50%;
     margin-top: 2rem;
+	margin-right: 2rem;
 }
 #popular-artists-text{
 	text-align: center;
@@ -509,6 +516,7 @@ aside{
 	line-height: 8rem;
 	font-weight: bold;
 	text-align: center;
+	color: white;
 	margin-bottom: 2rem;
 }
 #genre-item:hover{
@@ -528,6 +536,7 @@ aside{
 	line-height: 8rem;
 	font-weight: bold;
 	text-align: center;
+	color: white;
 	margin-bottom: 2rem;
 }
 #genre-item-background-3{
@@ -543,6 +552,7 @@ aside{
 	font-size: 1.5rem;
 	font-weight: bold;
 	text-align: center;
+	color: white;
 	line-height: 8rem;
 	margin-bottom: 2rem;
 }
