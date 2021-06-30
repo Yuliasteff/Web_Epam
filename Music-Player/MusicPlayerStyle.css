@@ -1378,7 +1378,7 @@ aside{
 	margin-top: 2.5rem;
 }
 
-#aside-header-2 x{
+#aside-header-2 {
 	font-family: helvetica, sans-serif;
 	color: var(--font_color_2);
 	font-size: 0.9rem;
