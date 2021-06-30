@@ -305,7 +305,7 @@ aside{
     margin-top: 2rem;
 }
 #popular-artists-image-5{
-	background-image: url(Images/taylor-swift-folklore.jpg);
+	background-image: url(Images/taylor-swift-time-100-2019-082-2.jpg);
 	background-size: cover;
 	background-position: center;
 	height:120px;
@@ -984,7 +984,7 @@ aside{
 	justify-content: space-between;
 }
 
-#artist-image{
+#artist-image-2{
 	height: 60vh;
 	width: 40%;
 	background: linear-gradient(to bottom, rgba(13,0,101,0) 10%,
@@ -993,7 +993,54 @@ aside{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
+#artist-image-1{
+	height: 60vh;
+	width: 40%;
+	background: linear-gradient(to bottom, rgba(13,0,101,0) 10%,
+              rgba(13,0,101,1)), url(Images/artist-1.jpg); 
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+#artist-image-3{
+	height: 60vh;
+	width: 40%;
+	background: linear-gradient(to bottom, rgba(13,0,101,0) 10%,
+              rgba(13,0,101,1)), url(Images/artist-2.jpg); 
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+#artist-image-4{
+	height: 60vh;
+	width: 40%;
+	background: linear-gradient(to bottom, rgba(13,0,101,0) 10%,
+              rgba(13,0,101,1)), url(Images/artist-5.jpg); 
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+#artist-image-5{
+	height: 60vh;
+	width: 40%;
+	background: linear-gradient(to bottom, rgba(13,0,101,0) 10%,
+              rgba(13,0,101,1)), url(Images/taylor-swift-time-100-2019-082-2.jpg); 
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#artist-image-6{
+	height: 60vh;
+	width: 40%;
+	background: linear-gradient(to bottom, rgba(13,0,101,0) 10%,
+              rgba(13,0,101,1)), url(Images/artist-3.jpg); 
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 #artist-details{
 	height: 60vh;
 	width: 54%;
@@ -1024,12 +1071,22 @@ aside{
 	margin-top: 1.5%;
 }
 
-#artist-title artist-type{
+#artist-title artist-type-2{
 	font-size: 0.9rem;
 	color: var(--font_color_2);
 	font-weight: bold;
 	margin-top: 1rem;
 	padding: 0.5rem;
+	margin-left: -0.3rem;
+}
+
+#artist-title artist-type-1{
+	font-size: 0.9rem;
+	color: var(--font_color_2);
+	font-weight: bold;
+	margin-top: 1rem;
+	padding: 0.5rem;
+	margin-left: -0.5rem;
 }
 
 #artist-intro{
@@ -1174,14 +1231,134 @@ aside{
 }
 
 #artist-img{
-   background-image: url(Images/artist-7.jpg);
+   background-image: url(Images/artist-2.jpg);
    height: 15vh;
    width: 15vh;
    background-position: center;
    background-size: cover;
    margin-right: -0.5rem;
 }
-
+#artist-img-3{
+	background-image: url(Images/art-img.jfif);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ #artist-img-2{
+	background-image: url(Images/art-img-2.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ 
+ #artist-img-4{
+	background-image: url(Images/artist-7.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ #artist-img-5{
+	background-image: url(Images/74d71475c8963c632ff93406a2846453.png);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ #artist-img-6{
+	background-image: url(Images/l_WxSl2v_RU.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ #artist-img-7{
+	background-image: url(Images/artist-1.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ #artist-img-8{
+	background-image: url(Images/1111.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ #artist-img-9{
+	background-image: url(Images/10133.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ #artist-img-10{
+	background-image: url(Images/800x800cc.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ #artist-img-11{
+	background-image: url(Images/ed-sheeran.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ #artist-img-12{
+	background-image: url(Images/bruno-mars-01.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ #artist-img-13{
+	background-image: url(Images/a38a2dcf16fedd9c8455ca92e9ff24ae_ce_1080x673x0x83_cropped_960x600.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ #artist-img-14{
+	background-image: url(Images/images1111.jfif);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ #artist-img-15{
+	background-image: url(Images/2222.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ #artist-img-16{
+	background-image: url(Images/radiohead-2-770x514.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
 #similar-artist i{
 	margin-left: 8vw;
 }
