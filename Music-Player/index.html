@@ -2,51 +2,55 @@
 <html>
 <head>
 	 <title>Music Player</title>
-	 <link rel="stylesheet" type="text/css" href="MusicPlayerStyle.css">
+	 <link rel="stylesheet" type="text/css" href="style.css">
 	 <script src="https://kit.fontawesome.com/6f0f83005a.js" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
 </head>
 <body>
 	<nav>
-		<div id="music-player-tag">
-		 <div id="music-player-logo">
-			 <img src="Images/music-player-logo.png">
+		<div class="music-player">
+			<div class="music-player__teg">
+		 	<div class="music-player__logo">
+			 <img src="Images/music-player-logo.png" class="header">
 		 </div>
-		 <div id="music-player-name">
+		 <div class="music-player__name">
              Music<br/><b>Player</b>
 		 </div>
 		</div>
-         <div id="search-bar-utility">
-		 <div id="search-bar">
+	</div>
+         <div class="search-bar-utility">
+		 <div class="search-bar">
 			 <form>
 				 <input type="text" placeholder="Search...">
 				 <i class="fas fa-search"></i>
 			 </form>
 		 </div>
-		 <div id="notifications">
+		 <div class="notifications">
 			 <i class="fas fa-bell"></i>
 		 </div>
-		 <div id="user">
-			 <img src="Images/user-image.jpg">
+		 <div class="user">
+			 <img src="Images/itashi.jpg" class="header">
 		 </div>
 		</div>
 	</nav>
 	<main>
-		<div id="new-releases">
+		<div class="new-release">
+			<div class="new-release__alboms-dots">
 			 <img src="Images/new-music-2.jpg">
 			 <img src="Images/new-music-1.jpg">
 			 <img src="Images/new-music-3.jpg">
+			</div>
 		</div>
-		<div id="latest-release">
+		<div class="latest-release">
 			<h1>Latest Release</h1>
-			<div id="latest-release-items">
-                <div id="latest-release-item">
+			<div class="latest-release-items">
+                <div class="latest-release-item">
                 	<div id="latest-release-img">
                 		<div id="latest-release-img-button" class="hide">
                 		     <a href="#music-bar" class="font-color"><i class="fas fa-play"></i></a>
                 	    </div>
                 	 </div>
-                	 <div id="latest-item-title" class="hide">
+                	 <div class="latest-item__title" class="hide">
                 	     <b>willow</b>
                 	     <p style="color:lightgrey">December, 2020 &emsp;&emsp; 3:34</p>
                      </div>
@@ -82,7 +86,7 @@
                      
                 </div>
                
-                <div id="latest-release-item">
+                <div class="latest-release-item">
                 	
                 	<div id="latest-release-img">
                 		
@@ -90,7 +94,7 @@
                 		     <a href="#music-bar" class="font-color"><i class="fas fa-play"></i></a>
                 	    </div>
                 	 </div>
-                	 <div id="latest-item-title">
+                	 <div class="latest-item__title">
                 	     <b>evermore (feat. Bon Iver)</b>
                 	     <p style="color:lightgrey">December, 2020 &emsp;&emsp; 5:04</p>
                      </div>
@@ -125,13 +129,13 @@
                      </div>
                      
                 </div>
-                <div id="latest-release-item">
+                <div class="latest-release-item">
                      <div id="latest-release-img">
                 		<div id="latest-release-img-button" class="hide">
                 		     <a href="#music-bar" class="font-color"><i class="fas fa-play"></i></a>
                 	    </div>
                      </div>
-                	 <div id="latest-item-title">
+                	 <div class="latest-item__title">
                 	     <b>ivy</b>
                 	     <p style="color:lightgrey">December, 2020 &emsp;&emsp; 4:20</p>
                      </div>
@@ -165,13 +169,13 @@
                         </i>
                      </div>
                 </div>
-                 <div id="latest-release-item">
+                 <div class="latest-release-item">
                 	 <div id="latest-release-img">
                 		 <div id="latest-release-img-button" class="hide">
                 		         <a href="#music-bar" class="font-color"><i class="fas fa-play"></i></a>
                 	     </div>
                      </div>
-                	 <div id="latest-item-title">
+                	 <div class="latest-item__title">
                 	     <b>happiness</b>
                 	     <p style="color:lightgrey">December, 2020 &emsp;&emsp; 5:15</p>
                      </div>
@@ -210,55 +214,56 @@
 			
 		</div>
 		
-		<div id="popular-artists">
+		
+		<div class="popular-artists">
 			
 			 <h1>Popular Artists</h1>
 			
-			 <div id="popular-artist-list">
+			 <div class="popular-artists__artists-list">
 			 	
-			     <div id="popular-artists-image">
-				     <div id="popular-artists-text" class="hide">
-				     	<a href="MusicPlayerSinglePlaylistScreenArtist1.html">
+			     <div class="artists-list__first-artist">
+				     <div id="popular-artists__text" class="hide">
+				     	<a href="singleartist1.html">
 			               Prateek Kuhad
 			            </a>
 			         </div>
 			     </div>
-			     <div id="popular-artists-image-2">
-				     <div id="popular-artists-text" class="hide">
-				     	<a href="MusicPlayerSinglePlaylistScreenArtist2.html">
+			     <div class="artists-list__second-artist">
+				     <div id="popular-artists__text" class="hide">
+				     	<a href="singleartist2.html">
 			                Tove Styrke
 			            </a>
 			         </div>
 			     </div>
 			    
-			     <div id="popular-artists-image-3">
-				      <div id="popular-artists-text" class="hide">
-				     	<a href="MusicPlayerSinglePlaylistScreenArtist3.html">
+			     <div class="artists-list__third-artist">
+				      <div id="popular-artists__text" class="hide">
+				     	<a href="singleartist3.html">
 			                Ritviz
 			            </a>
 			         </div>
 			     </div>
 			     
-			     <div id="popular-artists-image-4">
-				    <div id="popular-artists-text" class="hide">
-				     	<a href="MusicPlayerSinglePlaylistScreenArtist4.html">
+			     <div class="artists-list__fourth-artist">
+				    <div id="popular-artists__text" class="hide">
+				     	<a href="singleartist4.html">
 			               Martin Garrix
 			            </a>
 			         </div>
 			     </div>
 			    
-			     <div id="popular-artists-image-5">
-				    <div id="popular-artists-text" class="hide">
-				     	<a href="MusicPlayerSinglePlaylistScreenArtist5.html">
-			                Taylor Swift
+			     <div class="artists-list__fifth-artist">
+				    <div id="popular-artists__text" class="hide">
+				     	<a href="singleartist5.html">
+							Green Day
 			            </a>
 			         </div>
 			     </div>
 			     
-			     <div id="popular-artists-image-6">
-				   <div id="popular-artists-text" class="hide">
-				     	<a href="MusicPlayerSinglePlaylistScreenArtist6.html">
-			                Green Day
+			     <div class="artists-list__sixth-artist">
+				   <div id="popular-artists__text" class="hide">
+				     	<a href="singleartist6.html">
+			                Taylor Swift
 			            </a>
 			         </div>
 			     </div>
@@ -267,171 +272,171 @@
 		    
 	    </div>
         
-        <div id="playlist">
+        <div class="playlist">
             
-        	<div id="playlist-item-1">
-        		<div id="popular-artists-text">
+        	<div class="playlist__first-option">
+        		<div id="popular-artists__text">
 			         Love
 			    </div>
         	</div>
         	
-        	<div id="playlist-item-2">
-        		<div id="popular-artists-text">
+        	<div class="playlist__second-option">
+        		<div id="popular-artists__text">
 			         Retro
 			    </div>
         	</div>
         	
-        	<div id="playlist-item-3">
-        		<div id="popular-artists-text">
+        	<div class="playlist__third-option">
+        		<div id="popular-artists__text">
 			         Chill
 			    </div>
         	</div>
         	
-        	<div id="playlist-item-4">
-        		<div id="popular-artists-text">
+        	<div class="playlist__fourth-option">
+        		<div id="popular-artists__text">
 			         Pop
 			    </div>
         	</div>
         	
-        	<div id="playlist-item-5">
-        		<div id="popular-artists-text">
+        	<div class="playlist__fifth-option">
+        		<div id="popular-artists__text">
 			         Workout
 			    </div>
         	</div>
-        	<div id="playlist-item-6">
-        		<div id="popular-artists-text">
+        	<div class="playlist__sixth-option">
+        		<div id="popular-artists__text">
 			         Rock
 			    </div>
         	</div>
         </div>
-	    <div id="genre">
-	    	<div id="genre-item">
-	    		 <div id="genre-item-background-1">Party</div>
+	    <div class="genre">
+	    	<div class="genre__party">
+	    		 <div class="genre__party-background">Party</div>
 	    	</div>
-	    	<div id="genre-item">
-	    		 <div id="genre-item-background-2">Electronic</div>
+	    	<div class="genre__electronic">
+	    		 <div class="genre__electronic-background">Electronic</div>
 	    	</div>
-	    	<div id="genre-item">
-	    		 <div id="genre-item-background-3">Road Trip</div>	    	
+	    	<div class="genre__road-trip">
+	    		 <div class="genre__road-trip-background">Road Trip</div>	    	
 	    	</div>
 	    </div>
-	    <div id="latest-songs">
+	    <div class="latest-songs">
 	    	<h1>Latest English</h1>
-	    	<div id="latest-songs-list">
-	    		<div id="latest-songs-item">
-	    			 <div id="latest-songs-item-img-1">
+	    	<div class="latest-songs__list">
+	    		<div class="latest-songs-item">
+	    			 <div class="latest-songs-item-one">
 	    			 <div id="latest-songs-item-button" class="hide">
                 		 <i class="fas fa-play"></i>
                 	 </div>
 	    			</div>
-	    			<div id="latest-songs-item-title">
+	    			<div class="latest-songs-item-title">
 	    				<b>Anyone</b><br/><date style="color:lightgrey">January, 2021</date>
 	    			</div>
 	    		</div>
-	    		<div id="latest-songs-item">
-	    			 <div id="latest-songs-item-img-2">
+	    		<div class="latest-songs-item">
+	    			 <div class="latest-songs-item-two">
               		     <div id="latest-songs-item-button" class="hide">
                 		     <i class="fas fa-play"></i>
                 	     </div>
 	    			 </div>
-	    			 <div id="latest-songs-item-title">
+	    			 <div class="latest-songs-item-title">
 	    				 <b>Hey Boy</b><br/><date style="color:lightgrey">November, 2020</date>
 	    			</div>
 	    		</div>
-	    		<div id="latest-songs-item">
-	    			 <div id="latest-songs-item-img-3">    	
+	    		<div class="latest-songs-item">
+	    			 <div class="latest-songs-item-three">    	
 	    				 <div id="latest-songs-item-button" class="hide">
                 		     <i class="fas fa-play"></i>
                 	     </div>
 	    			</div>
-	    			<div id="latest-songs-item-title">
+	    			<div class="latest-songs-item-title">
 	    				 <b>Afterglow</b><br/><date style="color:lightgrey">December, 2020</date>
 	    			</div>
 	    		</div>
 	    		
-	    		<div id="latest-songs-item">
-	    			 <div id="latest-songs-item-img-4">
+	    		<div class="latest-songs-item">
+	    			 <div class="latest-songs-item-four">
 	    				 <div id="latest-songs-item-button" class="hide">
                 		     <i class="fas fa-play"></i>
                 	     </div>
                 	    
 	    			</div>
-	    			<div id="latest-songs-item-title">
+	    			<div class="latest-songs-item-title">
 	    				<b>Vibez</b><br/><date style="color:lightgrey">January, 2021</date>
 	    			</div>
 	    		</div>
 	    	
-	    		<div id="latest-songs-item">
-	    			<div id="latest-songs-item-img-5">
+	    		<div class="latest-songs-item">
+	    			<div class="latest-songs-item-five">
 	    		         <div id="latest-songs-item-button" class="hide">
                 		     <i class="fas fa-play"></i>
                 	     </div>
 	    			</div>
-	    			<div id="latest-songs-item-title">
+	    			<div class="latest-songs-item-title">
 	    				<b>Higher</b><br/><date style="color:lightgrey">January, 2021</date>
 	    			</div>
 	    		</div>
 	       </div>
 	    </div>
 	    
-	    <div id="latest-songs">
+	    <div class="latest-songs">
 	    	<h1>Latest Hindi</h1>
-	    	<div id="latest-songs-list">
-	    		 <div id="latest-songs-item">
-	    			 <div id="latest-songs-item-img-6">
+	    	<div class="latest-songs__list">
+	    		 <div class="latest-songs-item">
+	    			 <div class="latest-songs-item-six">
 	    				  <div id="latest-songs-item-button" class="hide">
                 		     <i class="fas fa-play"></i>
                 	      </div>
 	    		      </div>
-	    			   <div id="latest-songs-item-title">
+	    			   <div class="latest-songs-item-title">
 	    				     <b>Kahaan Ho Tum</b><br/><date style="color:lightgrey">November, 2020</date>
 	    			   </div>
 	    			  
 	    		</div>
-	    		<div id="latest-songs-item">
+	    		<div class="latest-songs-item">
 	    			 
-	    			 <div id="latest-songs-item-img-7">
+	    			 <div class="latest-songs-item-seven">
 	    				 <div id="latest-songs-item-button" class="hide">
                 		     <i class="fas fa-play"></i>
                 	     </div>
 	    			 </div>
 	    			 
-	    			<div id="latest-songs-item-title">
+	    			<div class="latest-songs-item-title">
 	    				 <b>Dil Bechara</b><br/><date style="color:lightgrey">July, 2020</date>
 	    			</div>
 	    			
 	    		</div>
-	    		<div id="latest-songs-item">
+	    		<div class="latest-songs-item">
 	    			 
-	    			 <div id="latest-songs-item-img-8">
+	    			 <div class="latest-songs-item-eight">
 	    				
 	    				 <div id="latest-songs-item-button" class="hide">
                 		     <i class="fas fa-play"></i>
                 	     </div>
 	    			</div>
 	    			
-	    			<div id="latest-songs-item-title">
+	    			<div class="latest-songs-item-title">
 	    				 <b>Sun Toh</b><br/><date style="color:lightgrey">November, 2020</date>
 	    			</div>
 	    		</div>
-	    		<div id="latest-songs-item">
+	    		<div class="latest-songs-item">
 
-	    			 <div id="latest-songs-item-img-9">
+	    			 <div class="latest-songs-item-nine">
 	    				 <div id="latest-songs-item-button" class="hide">
                 		     <i class="fas fa-play"></i>
                 	     </div>
 	    			 </div>
-	    			<div id="latest-songs-item-title">
+	    			<div class="latest-songs-item-title">
 	    				 <b>Oh Saiyaan</b><br/><date style="color:lightgrey">January, 2021</date>
 	    			</div>
 	    		</div>
-	    		<div id="latest-songs-item">
-	    			 <div id="latest-songs-item-img-10">
+	    		<div class="latest-songs-item">
+	    			 <div class="latest-songs-item-ten">
 	    				 <div id="latest-songs-item-button" class="hide">
                 		     <i class="fas fa-play"></i>
                 	     </div>
            			 </div>
-	    			<div id="latest-songs-item-title">
+	    			<div class="latest-songs-item-title">
 	    				 <b>Rabba Mehar Kari</b><br/><date style="color:lightgrey">February, 2021</date>
 	    			</div>
 	    	</div>
@@ -439,134 +444,134 @@
 	    </div>
 	    </main>
     <aside>
-   	    <div id="aside-header">
-   	      <div id="aside-title">
+   	    <div class="aside-header">
+   	      <div class="aside-title">
    		     Queue
    	      </div>
-       	 <div id="aside-dropdown">
+       	 <div class="aside-dropdown">
    		     <form>
    			     <select>
-   			         <option id="Queue" label="Queue">Queue</option>
-   			         <option id="Playlist" lable="Playlist"><a href="MusicPlayerHomePage2.html">Playlist</a></option>
+   			         <option class="Queue" label="Queue">Queue</option>
+   			         <option class="Playlist" lable="Playlist"><a href=".html">Playlist</a></option>
    		         </select>
    	         </form>
    	     </div>
         </div>
-   	     <div id="queue-item"> 
-   		     <div id="queue-item-img"></div>
-   		     <div id="queue-item-title">
+   	     <div class="queue-item"> 
+   		     <div class="queue-item-img"></div>
+   		     <div class="queue-item-title">
                  <b>willow</b>
                  <p style="color:lightgrey;">Taylor Swift</p>
              </div>
-             <div id="queue-favourite">
+             <div class="queue-favourite">
         	     <i class="far fa-heart"></i>
              </div>
        	 </div>
-   	     <div id="queue-item">
-   		     <div id="queue-item-img"></div>
-   		     <div id="queue-item-title">
+   	     <div class="queue-item">
+   		     <div class="queue-item-img"></div>
+   		     <div class="queue-item-title">
                  <b>willow</b>
                  <p style="color:lightgrey;">Taylor Swift</p>
              </div>
-             <div id="queue-favourite">
+             <div class="queue-favourite">
         	     <i class="far fa-heart"></i>
              </div>
        	 </div>
-   	     <div id="queue-item">
-   		     <div id="queue-item-img"></div>
-   		     <div id="queue-item-title">
+   	     <div class="queue-item">
+   		     <div class="queue-item-img"></div>
+   		     <div class="queue-item-title">
                  <b>willow</b>
                  <p style="color:lightgrey;">Taylor Swift</p>
              </div>
-             <div id="queue-favourite">
+             <div class="queue-favourite">
         	     <i class="far fa-heart"></i>
              </div>
        	 </div>
-   	     <div id="queue-item">
-   		     <div id="queue-item-img"></div>
-   		     <div id="queue-item-title">
+   	     <div class="queue-item">
+   		     <div class="queue-item-img"></div>
+   		     <div class="queue-item-title">
                  <b>willow</b>
                  <p style="color:lightgrey;">Taylor Swift</p>
              </div>
-             <div id="queue-favourite">
+             <div class="queue-favourite">
         	     <i class="far fa-heart"></i>
              </div>
        	 </div>
-   	     <div id="queue-item">
+   	     <div class="queue-item">
    	     	
-   		     <div id="queue-item-img"></div>
-   		         <div id="queue-item-title">
+   		     <div class="queue-item-img"></div>
+   		         <div class="queue-item-title">
                  <b>willow</b>
                  <p style="color:lightgrey;">Taylor Swift</p>
              </div>
             
-             <div id="queue-favourite">
+             <div class="queue-favourite">
         	     <i class="far fa-heart"></i>
              </div>
        	 </div>
-   	     <div id="queue-item">
-   		     <div id="queue-item-img"></div>
-   		     <div id="queue-item-title">
+   	     <div class="queue-item">
+   		     <div class="queue-item-img"></div>
+   		     <div class="queue-item-title">
                  <b>willow</b>
                  <p style="color:lightgrey;">Taylor Swift</p>
              </div>
-             <div id="queue-favourite">
+             <div class="queue-favourite">
         	     <i class="far fa-heart"></i>
              </div>
        	 </div>
-   	     <div id="queue-item">
-   		     <div id="queue-item-img"></div>
-   		     <div id="queue-item-title">
+   	     <div class="queue-item">
+   		     <div class="queue-item-img"></div>
+   		     <div class="queue-item-title">
                  <b>willow</b>
                  <p style="color:lightgrey;">Taylor Swift</p>
              </div>
-             <div id="queue-favourite">
+             <div class="queue-favourite">
         	     <i class="far fa-heart"></i>
              </div>
        	 </div>
    </aside>
    <footer>
-	<div id="music-bar" class="hide">
-		<div id="music-icon">
+	<div class="music-bar" class="hide">
+		<div class="music-icon">
 			 <img src="Images/latest-release-2.png" alt="music-icon">
 		</div>
-		<div id="music-title">
+		<div class="music-title">
 			<b>evermore (feat. Bon Iver)</b>
-            <div id="favourite">
+            <div class="favourite">
 			   <i class="far fa-heart"></i>
 			</div>
-			<div id="remove">
+			<div class="remove">
 				<i class="fas fa-ban"></i>
 			</div>
 			<br/>
-			<artist id="music-player-title-artist">Taylor Swift</artist>
+			<artist class="music-player-title-artist">Taylor Swift</artist>
 		</div>
-		<div id="play-buttons">
+		<div class="play-buttons">
 			<i class="fas fa-random"></i>
 			<i class="fas fa-backward"></i>
 			<i class="fas fa-pause-circle"></i>
 			<i class="fas fa-forward"></i>
 			<i class="fas fa-undo-alt"></i>
 		</div>
-	    <div id="start-time">
+	    <div class="start-time">
             0:00
 	    </div>
-	    <div id="end-time">
+	    <div class="end-time">
             5:04
 	    </div>
-		<div id="progress-bar">
-		     <div id="circle">
+		<div class="progress-bar">
+		     <div class="circle">
 			     <i class="fas fa-circle"></i>
 		    </div>
 		</div>
-		<div id="queue">
+		<div class="queue">
 			<i class="fas fa-bars"></i>
 		</div>
-		<div id="volume">
+		<div class="volume">
 			<i class="fas fa-volume-up"></i>
 		</div>
-		<div id="progress-bar-volume">
-			<div id="circle-volume">
+		<div class="progress-bar-volume">
+			<div class="circle-volume">
 			  <i class="fas fa-circle"></i>
 		    </div>
 		</div>
