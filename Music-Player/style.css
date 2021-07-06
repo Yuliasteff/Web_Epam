@@ -88,7 +88,7 @@ aside{
 
 }
 
-.search-bar{
+.search-bar-utility__search{
 	width: 50px;
 	margin-top: 12px;
 	margin-right: 122px;
@@ -96,7 +96,7 @@ aside{
 	font-size: 20px;
 }
 
-.search-bar input[type="text"]{
+.search-bar-utility__search input[type="text"]{
 	margin-top: 12px;
 	height:30px;
 	width:250px;
@@ -112,12 +112,12 @@ aside{
 	font-family: helvetica, sans-serif;
 	padding: 5px;
 }
-.search-bar input:focus{
+.search-bar-utility__search input:focus{
 	height:30px;
 	width:250px;
 	outline:none;
 }
-.search-bar i{
+.search-bar-utility__search i{
 	margin-top: 12px;
 }
 .notifications{
@@ -127,11 +127,11 @@ aside{
 	margin-left: 12px;
 
 }
-.user{
+.user-icon__image {
 	margin-top: -45px;
 	margin-right: 12px;
 }
-.user img{
+.user-icon__image img{
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
@@ -1003,7 +1003,7 @@ aside{
 	left:55%;
 }
 
-.artist-template{
+.single-artist__template{
 	height: auto;
 	width: 95%;
 	background-color: var(--bg_color_2);
@@ -1014,7 +1014,7 @@ aside{
 	justify-content: space-between;
 }
 
-.artist-image-2{
+.single-artist__image-second-button{
 	height: 60vh;
 	width: 40%;
 	background: linear-gradient(to bottom, rgba(13,0,101,0) 10%,
@@ -1023,7 +1023,7 @@ aside{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.artist-image-1{
+.single-artist__image-first-section{
 	height: 60vh;
 	width: 40%;
 	background: linear-gradient(to bottom, rgba(13,0,101,0) 10%,
@@ -1033,7 +1033,7 @@ aside{
 	background-repeat: no-repeat;
 	
 }
-.artist-image-3{
+.single-artist__image-third-button{
 	height: 60vh;
 	width: 40%;
 	background: linear-gradient(to bottom, rgba(13,0,101,0) 10%,
@@ -1043,7 +1043,7 @@ aside{
 	background-repeat: no-repeat;
 	
 }
-.artist-image-4{
+.single-artist__image-fourth-button{
 	height: 60vh;
 	width: 40%;
 	background: linear-gradient(to bottom, rgba(13,0,101,0) 10%,
@@ -1053,7 +1053,7 @@ aside{
 	background-repeat: no-repeat;
 	
 }
-.artist-image-5{
+.single-artist__image-sixth-button{
 	height: 60vh;
 	width: 40%;
 	background: linear-gradient(to bottom, rgba(13,0,101,0) 10%,
@@ -1062,7 +1062,7 @@ aside{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.artist-image-6{
+.single-artist__image-fifth-button{
 	height: 60vh;
 	width: 40%;
 	background: linear-gradient(to bottom, rgba(13,0,101,0) 10%,
@@ -1071,7 +1071,7 @@ aside{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.artist-details{
+.single-artist__details{
 	height: 60vh;
 	width: 54%;
 	display: flex;
@@ -1080,7 +1080,7 @@ aside{
 	margin-left: 1%;
 }
 
-.artist-title{
+.single-artist__details__title{
 	height: 20%;
 	width: 100%;
 	margin-top: 13%;
@@ -1092,10 +1092,10 @@ aside{
 	color: var(--font_color_1);
 }
 
-.artist-title b{
+.single-artist__details__title b{
 	font-size: 1.5rem;
 }
-.artist-title followers{
+.single-artist__details__title followers{
 	font-size: 0.9rem;
 	color: var(--font_color_2);
 	margin-top: 1.5%;
@@ -1103,7 +1103,7 @@ aside{
 
 
 
-.artist-title type{
+.single-artist__details__title type{
 	font-size: 0.9rem;
 	color: var(--font_color_2);
 	font-weight: bold;
@@ -1112,7 +1112,7 @@ aside{
 	margin-left: -0.3rem;
 }
 
-.artist-intro{
+.single-artist__details__info{
 	font-family: helvetica, sans-serif;
 	color: var(--font_color_2);
 	font-size: 0.9rem;
@@ -1120,7 +1120,7 @@ aside{
 	width: 94%;
 }
 
-.artist-buttons{
+.single-artist__buttons{
 	height: auto;
 	width: 55%;
 	display: flex;
@@ -1131,7 +1131,7 @@ aside{
 	margin-top: 10%;
 }
 
-.playall-button{
+.buttons__playall-button{
 	height: 1.7rem;
 	width: 9rem;
 	background-image: linear-gradient(to left, #8A2387, #E94057, #F27121);
@@ -1142,7 +1142,7 @@ aside{
     border-radius: 0.3rem;
     padding-top: 4%;
 }
-.follow-button{
+.buttons__follow-button{
 	font-family: helvetica, sans-serif;
 	color: var(--font_color_1);
 }
@@ -1155,13 +1155,13 @@ aside{
 	justify-content: space-between;
 	padding-top: 3%;
 }
-.tracks{
+.tracks-details{
 	font-family: helvetica, sans-serif;
 	color: var(--font_color_1);
 	font-size: 0.8rem;
 	margin-top: 0.5rem;
 }
-.song{
+.songs{
 	height: 12vh;
 	width: 95%;
 	min-width: 300px;
@@ -1173,13 +1173,13 @@ aside{
 	background-color: var(--bg_color_3);
 	margin-bottom: 2%;
 }
-.song img{
+.songs img{
 	height: 10vh;
 	width: 10vh;
 	margin-left: 2vw;
 }
 
-.song-number{
+.songs__number{
 	font-family: helvetica, sans-serif;
 	color: var(--font_color_2);
     margin-left: 1vw;
@@ -1203,7 +1203,7 @@ aside{
 	padding-right: 2%;
 }
 
-.song-details{
+.songs__details{
 	font-family: helvetica, sans-serif;
 	color: var(--font_color_1);
 	font-weight: bold;
@@ -1213,14 +1213,14 @@ aside{
 	margin-left: 2vw;
 	font-size: 0.95rem;
 }
-.song-details author{
+.songs__details author{
 	font-family: helvetica, sans-serif;
 	color: var(--font_color_2);
 	font-size: 0.8rem;
 	margin-top: 1vh;
 }
 
-.aside-header-1{
+.similar-artist__title{
 	font-family: helvetica, sans-serif;
 	color: var(--font_color_1);
 	font-size: 1.6rem;
@@ -1234,13 +1234,13 @@ aside{
 	width: 90%;
 }
 
-.aside-header-1 x{
+.similar-artist__title x{
 	font-family: helvetica, sans-serif;
 	color: var(--font_color_2);
 	font-size: 0.9rem;
 }
 
-.similar-artist{
+.similar-artist__image{
 	height: 20vh;
 	width: 100%;
 	display: flex;
@@ -1253,7 +1253,7 @@ aside{
 	margin-bottom: -1.5rem;
 }
 
-.artist-img{
+.image__icon__1{
    background-image: url(Images/artist-2.jpg);
    height: 15vh;
    width: 15vh;
@@ -1261,7 +1261,7 @@ aside{
    background-size: cover;
    margin-right: -0.5rem;
 }
-.artist-img-3{
+.image__icon__2{
 	background-image: url(Images/art-img.jfif);
 	height: 15vh;
 	width: 15vh;
@@ -1269,7 +1269,7 @@ aside{
 	background-size: cover;
 	margin-right: -0.5rem;
  }
- .artist-img-2{
+ .image__icon__3{
 	background-image: url(Images/art-img-2.jpg);
 	height: 15vh;
 	width: 15vh;
@@ -1278,7 +1278,7 @@ aside{
 	margin-right: -0.5rem;
  }
  
- .artist-img-4{
+ .image__icon__4{
 	background-image: url(Images/artist-7.jpg);
 	height: 15vh;
 	width: 15vh;
@@ -1286,7 +1286,7 @@ aside{
 	background-size: cover;
 	margin-right: -0.5rem;
  }
- .artist-img-5{
+ .image__icon__5{
 	background-image: url(Images/74d71475c8963c632ff93406a2846453.png);
 	height: 15vh;
 	width: 15vh;
@@ -1294,7 +1294,7 @@ aside{
 	background-size: cover;
 	margin-right: -0.5rem;
  }
- .artist-img-6{
+ .image__icon__6{
 	background-image: url(Images/l_WxSl2v_RU.jpg);
 	height: 15vh;
 	width: 15vh;
@@ -1302,7 +1302,7 @@ aside{
 	background-size: cover;
 	margin-right: -0.5rem;
  }
- .artist-img-7{
+ .image__icon__7{
 	background-image: url(Images/artist-1.jpg);
 	height: 15vh;
 	width: 15vh;
@@ -1310,7 +1310,23 @@ aside{
 	background-size: cover;
 	margin-right: -0.5rem;
  }
- .artist-img-8{
+ .image__icon__8{
+	background-image: url(Images/art-img-2.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ .image__icon__9{
+	background-image: url(Images/art-img.jfif);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ .image__icon__10{
 	background-image: url(Images/1111.jpg);
 	height: 15vh;
 	width: 15vh;
@@ -1318,7 +1334,7 @@ aside{
 	background-size: cover;
 	margin-right: -0.5rem;
  }
- .artist-img-9{
+ .image__icon__11{
 	background-image: url(Images/10133.jpg);
 	height: 15vh;
 	width: 15vh;
@@ -1326,7 +1342,7 @@ aside{
 	background-size: cover;
 	margin-right: -0.5rem;
  }
- .artist-img-10{
+ .image__icon__12{
 	background-image: url(Images/800x800cc.jpg);
 	height: 15vh;
 	width: 15vh;
@@ -1334,31 +1350,7 @@ aside{
 	background-size: cover;
 	margin-right: -0.5rem;
  }
- .artist-img-11{
-	background-image: url(Images/ed-sheeran.jpg);
-	height: 15vh;
-	width: 15vh;
-	background-position: center;
-	background-size: cover;
-	margin-right: -0.5rem;
- }
- .artist-img-12{
-	background-image: url(Images/bruno-mars-01.jpg);
-	height: 15vh;
-	width: 15vh;
-	background-position: center;
-	background-size: cover;
-	margin-right: -0.5rem;
- }
- .artist-img-13{
-	background-image: url(Images/a38a2dcf16fedd9c8455ca92e9ff24ae_ce_1080x673x0x83_cropped_960x600.jpg);
-	height: 15vh;
-	width: 15vh;
-	background-position: center;
-	background-size: cover;
-	margin-right: -0.5rem;
- }
- .artist-img-14{
+ .image__icon__13{
 	background-image: url(Images/images1111.jfif);
 	height: 15vh;
 	width: 15vh;
@@ -1366,7 +1358,7 @@ aside{
 	background-size: cover;
 	margin-right: -0.5rem;
  }
- .artist-img-15{
+ .image__icon__14{
 	background-image: url(Images/2222.jpg);
 	height: 15vh;
 	width: 15vh;
@@ -1374,7 +1366,7 @@ aside{
 	background-size: cover;
 	margin-right: -0.5rem;
  }
- .artist-img-16{
+ .image__icon__15{
 	background-image: url(Images/radiohead-2-770x514.jpg);
 	height: 15vh;
 	width: 15vh;
@@ -1382,11 +1374,35 @@ aside{
 	background-size: cover;
 	margin-right: -0.5rem;
  }
-.similar-artist i{
+ .image__icon__16{
+	background-image: url(Images/ed-sheeran.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ .image__icon__17{
+	background-image: url(Images/bruno-mars-01.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+ .image__icon__18{
+	background-image: url(Images/a38a2dcf16fedd9c8455ca92e9ff24ae_ce_1080x673x0x83_cropped_960x600.jpg);
+	height: 15vh;
+	width: 15vh;
+	background-position: center;
+	background-size: cover;
+	margin-right: -0.5rem;
+ }
+.similar-artist__image i{
 	margin-left: 8vw;
 }
 
-.aside-header-2{
+.similar-artist__title__second-part{
 	font-family: helvetica, sans-serif;
 	color: var(--font_color_1);
 	font-size: 1.6rem;
@@ -1401,24 +1417,24 @@ aside{
 	margin-top: 2.5rem;
 }
 
-.aside-header-2 {
+.similar-artist__title__second-part {
 	font-family: helvetica, sans-serif;
 	color: var(--font_color_2);
 	font-size: 0.9rem;
 }
 
-aside .song{
+aside .songs{
 	align-items: center;
 	margin-top: 1.5rem;
 	margin-bottom: -1rem;
 	background-color: var(--bg_color_1);
 }
 
-aside .song .song-details{
+aside .songs .songs__details{
 	font-size: 0.8rem;
 }
 
-aside .song .song-number{
+aside .songs .songs__number{
 	width: 70%;
 	margin-top: 0.3rem;
 }
