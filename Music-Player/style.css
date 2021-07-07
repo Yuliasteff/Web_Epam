@@ -1439,30 +1439,30 @@ aside .songs .songs__number{
 	margin-top: 0.3rem;
 }
 @media only screen and (max-width: 900px){
-	.new-releases img{
+	.new-release__alboms-dots img{
 		height: 300px;
 		width: 200px;
 	}
-	.music-player-logo img{
+	.music-player__logo img{
        height: 2.2rem;
        width: 2.2rem;
        margin-top: 0.5rem;
 	}
-	.music-player-name{
+	.music-player__name {
 		font-size: 0.8rem;
 	}
-	.user img{
+	.user-icon img{
 		height: 2.2rem;
 		width: 2.2rem;
 	}
-    .music-player-title-artist{
+    .music-player__title-artist{
     	font-size: 0.5rem;
     }
 	.notifications{
 		font-size: 1rem;
 	}
 
-	.search-bar{
+	.search-bar-utility__search{
 		font-size: 1rem;
 	}
 	::placeholder{
